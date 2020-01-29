@@ -135,6 +135,8 @@
     /*float: left;*/
     width: 12px;
     height: 41px;
+
+    margin-left: 7rem;
 }
 
 .right-side-box {
@@ -153,4 +155,5 @@
 
     width: 12px;
     height: 41px;
+    margin-right: 7rem;
 }
