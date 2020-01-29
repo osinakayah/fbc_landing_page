@@ -1,3 +1,6 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 .custom-nav-items {
     margin-right: 12px;
 }
@@ -155,3 +158,14 @@
     height: 41px;
     margin-right: 7rem;
 }
+.wavy_bg {
+    /*#F0CE4A*/
+    background-color: #F0CE4A;
+}
+.bg-svg {
+    width: 100%;
+    margin-top: 1%;
+    position: relative;
+    bottom: -1rem;
+}
+
