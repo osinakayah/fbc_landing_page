@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/silentmind/stylesheet.css">
+    <script src="https://kit.fontawesome.com/3f4c6b3a6c.js" crossorigin="anonymous"></script>
+
+    <title>FBC</title>
+</head>
+<style>
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+</style>
+<link rel="stylesheet" href="css/custom_styles.css">
+<body>
+<div class="">
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./images/Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active custom-nav-items">
+                    <a class="nav-link" href="#">サービスについて <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item custom-nav-items">
+                    <a class="nav-link" href="#">よくある質問</a>
+                </li>
+                <li class="nav-item custom-nav-items">
+                    <button type="button" class="btn btn-danger">
+                        <i class="fas fa-search"></i>
+                        クラブルームを探す
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <svg style="margin-top: -12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1367 51">
+        <g id="Group_6217" data-name="Group 6217" transform="translate(0.5 0.499)">
+            <path id="Union_3" data-name="Union 3"
+                  d="M1139.557,47.151a244.582,244.582,0,0,1-37.912-8.257c-10.953-3.367-23.371-5.48-34.472-8.769-31.786-9.417-92.835-12.452-126.96-2.634C911.537,35.741,872.059,48.9,833.746,43.22c-30.83-4.568-56.509-14.248-86.914-19.476-18.81-3.233-45.292-8.07-63.833-8.216.043,0,0-15.347,0-15.527V15.528c-19.519,0-45.023,4.983-63.832,8.216-30.4,5.227-56.084,14.908-86.914,19.476-38.312,5.677-77.791-7.478-106.466-15.729-34.124-9.818-95.173-6.783-126.96,2.634-11.1,3.289-23.519,5.4-34.473,8.769a244.557,244.557,0,0,1-37.912,8.257c-35.1,4.765-66.76,3.012-102.309-1.291A666.074,666.074,0,0,1,43.868,30.736C30.294,27.4,0,18.123,0,18.123V.237L683,0l683,.237V18.123s-30.294,9.278-43.868,12.613a666.073,666.073,0,0,1-80.267,15.124c-20.656,2.5-40,4.14-59.466,4.14A315.825,315.825,0,0,1,1139.557,47.151ZM683,15.528h0Z"
+                  transform="translate(0 0.001)" fill="#f0ce4a" stroke="rgba(0,0,0,0)" stroke-miterlimit="10"
+                  stroke-width="1"/>
+        </g>
+    </svg>
+    <div class="container-fluid jumbotron-wrapper">
+        <div class="jumbotron custom-jumbotron">
+            <div class="row first-section ml-5 pt-5">
+                <div class="col-12"><p style="padding-top: 7rem">「好き」をもっと楽しく、特別なものに。</p></div>
+                <div class="col-12"><h1 style="letter-spacing: 8px;">ファンが体験を創り出す<br/> 溜まり場 ”clubroom”</h1></div>
+                <br/>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-1">
+                    <button type="button" class="btn btn-danger">
+                        <i class="fas fa-search"></i>
+                        クラブルームを探す
+                    </button>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 mt-1">
+                    <i class="fab fa-facebook-f jumbotron-social-icons"></i>
+                    <i class="fab fa-twitter jumbotron-social-icons"></i>
+                </div>
+
+                <p class="mt-5 mb-5">クラブルームの運営に興味のある企業様はこちら</p>
+            </div>
+
+            <div class="media media-wrapper">
+                <img src="./images/swipe_icon.png" class="mr-3" alt="Swipe icon">
+                <div class="media-body">
+                    <h5 class="mt-0">期間限定ニュース等のバナー枠を想定</h5>
+                    スクロールしていったら消えるか、<br/>
+                    閉じるアイコンを付けるか。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <!--Prices-->
+        <div class="pb-5 container-fluid">
+            <div class="row">
+                <div class="offset-sm-1  offset-md-3 col-md-6  col-sm-10 col-xs-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <br/>
+                            <h3 class="points-header">Points</h3>
+                            <br/>
+                            <p class="points-header-content">クラブルームとは、企業とファンがプロジェクト
+                                ごとの部活動(クラブルーム)を通じて体験を創造・提供していくコミュニティーです。</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 mx-auto">
+                            <div class="circle mx-auto"></div>
+                            <br/>
+                            <h5 class="text-center">好きなクラブのメンバ <br/>ーになれる</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="circle mx-auto"></div>
+                            <br/>
+                            <h5 class="text-center">好きなクラブのメンバ <br/>ーになれる</h5>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="circle mx-auto"></div>
+                            <br/>
+                            <h5 class="text-center">好きなクラブのメンバ <br/>ーになれる</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Popular-->
+        <div class="pt-5 pb-5 container-fluid" style="background-color: #FFFBF2">
+            <div class="row mt-5 mb-5">
+                <div class="offset-lg-2 offset-md-1 col-md-10 col-lg-8">
+                    <h3 class="points-header mb-5 mx-auto">Popular</h3>
+                    <div class="pl-5 pr-5 mb-5" style="display: flex">
+                        <div class="ml-5 left-side-box"></div>
+                        <p class="mx-auto points-header-content text-center"> 話題のクラブルーム</p>
+                        <div class="mr-5 right-side-box"></div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card custom-card">
+                            <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                            <div class="card-body card-desc">
+                                <h6 class="card-title text-left font-weight-bold">
+                                    タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                <p class="card-text">企業名が入ります</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card custom-card">
+                            <img class="card-img-top" src="images/swipe_one.png" alt="Card image cap">
+                            <div class="card-body card-desc">
+                                <h6 class="card-title text-left font-weight-bold">
+                                    タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                <p class="card-text">企業名が入ります</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card custom-card">
+                            <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                            <div class="card-body card-desc">
+                                <h6 class="card-title text-left font-weight-bold">
+                                    タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                <p class="card-text">企業名が入ります</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 card custom-card">
+                            <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                            <div class="card-body card-desc">
+                                <h6 class="card-title text-left font-weight-bold">
+                                    タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                <p class="card-text">企業名が入ります</p>
+                            </div>
+                        </div>
+                        <div class="col-12" >
+                            <img alt="" style="width: 100%; height: auto" src="images/Group_6124.svg" class="im">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-lg-2 offset-md-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_one.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_one.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_one.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card  smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_two.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6  col-md-4 col-lg-3">
+                                <div class="card smaller-custom-card mx-auto">
+                                    <img class="card-img-top" src="images/swipe_one.png" alt="Card image cap">
+                                    <div class="card-body card-desc">
+                                        <h6 class="card-title text-left font-weight-bold">
+                                            タイトルが入りますタイトルが入りますタイトルが入りますタイトルが入ります</h6>
+                                        <p class="card-text">企業名が入ります</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <button class="btn btn-danger mx-auto mt-4">キーワード別で探してみる >></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Flow-->
+        <div class="container-fluid pt-5 pb-5" style="background-color: #F5F5F5">
+            <div class="row">
+                <div class="offset-sm-1 offset-md-2 offset-lg-3 col-sm-10 col-md-8 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="points-header">Flow</h3>
+                            <p class="mt-5 points-header-content">メンバーになるためには、<br/> 3つのステップを進めてください。</p>
+                        </div>
+                    </div>
+                    <div class="row p-3 mt-3" style="background-color: white; border-radius: 8px">
+                        <div class="col-1">
+                            <h1 style="font-family: silentmindregular">1</h1>
+                        </div>
+                        <div class="col-11">
+                            メンバーになりたいクラブルームのページを開き、 好きなプランを選び”メンバーになる”ボタンを選択しましょう。
+                        </div>
+                    </div>
+                    <div class="row p-3 mt-3" style="background-color: white; border-radius: 8px">
+                        <div class="col-1">
+                            <h1 style="font-family: silentmindregular">2</h1>
+                        </div>
+                        <div class="col-11">
+                            メンバーになるには”メンバーシップ”をご購入いただきます。 購入ページ から、該当するメンバープランを購入しましょう。
+                        </div>
+                    </div>
+                    <div class="row p-3 mt-3" style="background-color: white; border-radius: 8px">
+                        <div class="col-1">
+                            <h1 style="font-family: silentmindregular">3</h1>
+                        </div>
+                        <div class="col-11">
+                            購入後は何かあるのか！？？通知欲しい…!!
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <ul>
+                            <li>
+                                <p style="letter-spacing: 1px; font-size: 0.6em">
+                                    当サービスは”<span style="color: #D94D52">ibet</span>”という決済サービスを導入しています。メンバーになるにはibetの会員登録をし、ibetの画面から該当の商品をご購入ください。
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--QandA-->
+        <div class="pt-5 pb-5 container">
+            <div class="row">
+                <div class="offset-lg-2 offset-md-1 col-md-10 col-lg-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="mb-5 points-header mx-auto">Q&A</h3>
+                            <div class="pl-5 pr-5" style="display: flex">
+                                <div class="left-side-box"></div>
+                                <p class="mx-auto points-header-content text-center">よくある質問</p>
+                                <div class="right-side-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 mb-5">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="mt-5 pt-5 pr-2 pl-2 rounded qa-cards">
+                                <h4>クラブルームのメンバーになるには</h4>
+                                <br/>
+                                <p>
+                                    クラブルームのメンバーになるには、参加したいクラブのメンバーシップをご購入いただきます。購入の確認が取れ次第、メンバーの一員としてクラブに参加できるようになります。</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="mt-5 pt-5 pr-2 pl-2 rounded qa-cards">
+                                <h4>QAのメンバーシップについての説明文が入ります</h4>
+                                <br/>
+                                <p>QAのメンバーシップについての説明文が入ります</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="mt-5 pt-5 pr-2 pl-2 rounded qa-cards">
+                                <h4>クラブルームごとの ルール</h4>
+                                <br/>
+                                <p>各クラブルームごとに、「人数制限・期間・参加費用」などのルールがあります。 あらかじめ説明文を確認しましょう。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <h5 class="font-weight-bold mt-5">Q. この文章はダミーですクレジットカードは使用できますか？</h5>
+                        <p>A.
+                            大変申し訳ございませんが、当社ではクレジットカードのお取り扱いはございません。この文章はダミーです。詳しいお支払方法につきましては、当社営業担当までお問い合わせくださいませ。</p>
+
+                        <h5 class="font-weight-bold mt-5">Q. この文章はダミーですクレジットカードは使用できますか？</h5>
+                        <p>A.
+                            大変申し訳ございませんが、当社ではクレジットカードのお取り扱いはございません。この文章はダミーです。詳しいお支払方法につきましては、当社営業担当までお問い合わせくださいませ。</p>
+
+
+                        <h5 class="font-weight-bold mt-5">Q. この文章はダミーですクレジットカードは使用できますか？</h5>
+                        <p>A.
+                            大変申し訳ございませんが、当社ではクレジットカードのお取り扱いはございません。この文章はダミーです。詳しいお支払方法につきましては、当社営業担当までお問い合わせくださいませ。</p>
+
+                        <h5 class="font-weight-bold mt-5">Q. この文章はダミーですクレジットカードは使用できますか？</h5>
+                        <p>A.
+                            大変申し訳ございませんが、当社ではクレジットカードのお取り扱いはございません。この文章はダミーです。詳しいお支払方法につきましては、当社営業担当までお問い合わせくださいませ。</p>
+                    </div>
+                    <img alt="Bicycle" src="images/Bicycle_guy.png" style="position: relative;top: -70px;right: 130px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5 pb-5" style="background-image: url('images/stripped_bg.png')">
+            <p class="text-center">あなたも、さっそくメンバーになってみよう。</p>
+            <h4 class="mb-5 text-center font-weight-bold">まずは魅力的なクラブルームを探そう</h4>
+            <center>
+                <button class="btn btn-danger">
+                    <i class="fas fa-search"></i>
+                    クラブルームを探す
+                </button>
+            </center>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="row">
+                <div class="offset-sm-2 col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <div class="text-center">
+                        <h5 class="font-weight-bold">人気のあるキーワード</h5>
+                        <div class="row">
+                          <div class="col-6">
+                              SEOのために
+                          </div>
+                            <div class="col-6">
+                                SEOのために
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-sm-2"></div>
+                <div style="border-left: thin dotted #000000; height: 100%" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="text-left ml-5" >
+                        <p>クラブルームの運営に興味のある企業様へ</p>
+                        <br/>
+                        <p>
+                            運営に関する規約等の詳細をご説明致しますので、まずはお問い合わせをお願いいたします。
+                        </p>
+                        <button class="btn btn-warning">お問い合わせフォーム</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div style="background-color: black; padding-left: 10rem" class="pt-5">
+    <i class="fab fa-facebook-f jumbotron-social-icons"></i>
+    <i class="fab fa-twitter jumbotron-social-icons"></i>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style=" padding-bottom: 5rem;background-color: rgb(0, 0, 0);">
+    <div class="container">
+        <div class="row d-lg-none w-100">
+            <div class="col-6 col-md-3"><a class="text-white" href="#">運営会社</a></div>
+            <div class="col-6 col-md-3"><a class="text-white" href="#"> 法律に関する情報</a></div>
+            <div class="col-6 col-md-3"><a class="text-white" href="#">  プライバシーポリシー</a></div>
+            <div class="col-6 col-md-3"><a class="text-white" href="#">利用規約</a></div>
+            <div class="col-6 col-md-3"><a class="text-white" href="#">お問い合わせ</a></div>
+        </div>
+        <a class="navbar-brand" href="#">© 2020</a>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav  ml-auto"><a class="nav-item nav-link" href="#">運営会社 |</a><a
+                    class="nav-item nav-link" href="#">プライバシーポリシー |</a><a class="nav-item nav-link" href="#">利用規約
+                |</a><a class="nav-item nav-link" href="#">お問い合わせ</a></div>
+        </div>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
