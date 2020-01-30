@@ -7,6 +7,7 @@
 
 #navigation, .navbar .navbar-default {
     background-color: #F0CE4A !important;
+    background-image: url("../images/wavy_curl.svg");
 }
 
 .jumbotron-wrapper {
@@ -120,7 +121,9 @@
 .qa-cards {
     width: 100%;
     height: 22rem;
-    background-color: #FFF7E6
+    background-color: #FFF7E6;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .left-side-box {
@@ -167,5 +170,13 @@
     margin-top: 1%;
     position: relative;
     bottom: -1rem;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+
+    border-top: 14px solid black;
 }
 
